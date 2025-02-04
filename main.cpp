@@ -7,6 +7,7 @@ int main()
     // Make Circle
     sf::RenderWindow window(sf::VideoMode({320, 280}), "SaClicker");
     sf::CircleShape shape(100.f);
+    shape.setPosition(64, 32);
     shape.setFillColor(sf::Color::White);
 
     // Make Text
