@@ -1,0 +1,75 @@
+# Build directories
+build/
+out/
+bin/
+lib/
+Debug/
+Release/
+x64/
+x86/
+[Bb]uild*/
+
+# Compiled Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.app
+*.a
+*.lib
+
+# C++ specific
+*.slo
+*.lo
+*.d
+*.gcno
+*.gcda
+*.gcov
+
+# IDE specific files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+CMakeSettings.json
+compile_commands.json
+.cache/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+*.cmake
+!CMakeLists.txt
+
+# Dependency directories
+vendor/
+external/
+deps/
+node_modules/
+
+# System specific files
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+
+# Testing
+test-output/
+Testing/
+
